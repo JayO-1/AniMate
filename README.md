@@ -1,2 +1,2 @@
 # AniMate
-Generative AI powered chatbot for discovering and analysing anime
+> Generative AI powered chatbot for discovering and analysing anime
