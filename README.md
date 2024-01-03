@@ -28,7 +28,7 @@ WIP
 
 ## Contact
 
-Email: jxyozu3@gmail.com
+Email: jxyozu3@gmail.com <br>
 Twitter: @tenxdev_
 
 ## Demo
