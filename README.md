@@ -5,6 +5,12 @@ A ChatGPT chatbot that uses an agent powered by the GPT-3.5-Turbo API for discov
 - Wikipedia
 - [MyAnimeList.net](https://myanimelist.net/), one of the largest online anime/manga DBs. It is accessed via the [Jikan API](https://jikan.moe/)
 
+The **tools** currently provided allow the agent to:
+1. Get a summary of the anime from the anime's Wikipedia page
+2. Look up ratings received by the anime on MyAnimeList.net
+3. Get recommendations based on the anime from MyAnimeList.net
+4. Get a summary of the top five reviews on the anime from MyAnimeList.net
+
 As of yet, the agent does not use retrieval augmented generation (RAG) to provide its responses, but I plan to add this functionality in future updates to give it more in-depth anime knowledge.
 
 ## Tech Stack
@@ -19,18 +25,18 @@ As of yet, the agent does not use retrieval augmented generation (RAG) to provid
 ## Repo Structure
 
 The repo is divided into two main directories:
-- agent/ -> All prototyping occurs here. Any new chatbot functionality is first implemented in Python via Langchain, before being migrated to the main web app
-- animate/ -> A full-stack web app utilising Next.js and Supabase to provide a UI for the chatbot. Next.js is used for the front-end, while Supabase is used for elements of back-end functionality. Currently a WIP
+- **agent/** -> All prototyping occurs here within Jupyter Notebooks. Any new chatbot functionality is first implemented in Python via Langchain, before being migrated to the main web app
+- **animate/** -> A full-stack web app utilising Next.js and Supabase to provide a UI for the chatbot. Next.js is used for the front-end, while Supabase is used for elements of back-end functionality. Currently a WIP
 
 ## Setup
 
 WIP
 
+## Demo
+
+Stay tuned :) 
+
 ## Contact
 
 Email: jxyozu3@gmail.com <br>
 Twitter: @tenxdev_
-
-## Demo
-
-Stay tuned :) 
