@@ -9,9 +9,12 @@ The **tools** currently provided allow the agent to:
 1. Get a summary of the anime from the anime's Wikipedia page
 2. Look up ratings received by the anime on MyAnimeList.net
 3. Get recommendations based on the anime from MyAnimeList.net
-4. Get a summary of the top five reviews on the anime from MyAnimeList.net
+4. Get a summary of the top-rated reviews on the anime from MyAnimeList.net
 
 As of yet, the agent does not use retrieval augmented generation (RAG) to provide its responses, but I plan to add this functionality in future updates to give it more in-depth anime knowledge.
+
+## Why AniMate?
+Having been an avid consumer of anime since a young age, and after working in the tech industry, I've observed the evolving intersections of entertainment and technology. This interest combined with my fascination with AI and the world of LLMs naturally steered me towards exploring the capabilities of Large Language Models (LLMs) and their applicability in niche sectors such as anime analysis and discovery. Recognizing a gap in the market and driven by a genuine curiosity for the potential of AI, I undertook the development of a GPT-powered chatbot tailored for anime enthusiasts. This project not only allows me to apply and refine my skills in modern AI application development using technologies like Langchain and Next.js but is also aimed at inspiring interest in the anime community regarding how AI can be used to enhance the average anime watcher's experience.
 
 ## Tech Stack
 
@@ -25,12 +28,28 @@ As of yet, the agent does not use retrieval augmented generation (RAG) to provid
 ## Repo Structure
 
 The repo is divided into two main directories:
-- **agent/** -> All prototyping occurs here within Jupyter Notebooks. Any new chatbot functionality is first implemented in Python via Langchain, before being migrated to the main web app
-- **animate/** -> A full-stack web app utilising Next.js and Supabase to provide a UI for the chatbot. Next.js is used for the front-end, while Supabase is used for elements of back-end functionality. Currently a WIP
+- **agent/**
+    - All prototyping occurs here within Jupyter Notebooks. Any new chatbot functionality is first implemented in Python via Langchain, before being migrated to the main web app
+- **animate/**
+    - A full-stack web app utilising Next.js and Supabase to provide a UI for the chatbot. Next.js is used for the front-end, while Supabase is used for elements of back-end functionality. Currently a WIP
 
 ## Setup
 
-WIP
++ **agent/**
+1. Clone the repo
+2. Create a .env file in the same directory containing your OpenAI key in the form:
+```
+OPENAI_API_KEY=<your-key-here>
+```
+3. Run all cells under 'Imports'. These will install and import the required dependencies
+4. Experiment with different aspects of functionality by running/modifying the relevant cells
+---
++ **animate**
+
+-- WORK IN PROGRESS --
+
+[//]: # (1. Run `npm run dev`
+2. Go to `http://localhost:3000` to interact with the chatbot via the UI)
 
 ## Demo
 
@@ -38,5 +57,5 @@ Stay tuned :)
 
 ## Contact
 
-Email: jxyozu3@gmail.com <br>
-Twitter: @tenxdev_
+**Email:** jxyozu3@gmail.com <br>
+**Twitter:** [@tenxdev_](https://twitter.com/tenxdev_)
