@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://wallpapers.com/images/featured/cute-naruto-jtmjd4ifiqi7a48s.jpg" width="350" height="350" title="hover text">
+</p>
+
 # AniMate
 > AI-powered chatbot for discovering and analysing anime, built with Next.js and LangChain
 
