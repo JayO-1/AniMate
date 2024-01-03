@@ -11,7 +11,7 @@ The **tools** currently provided allow the agent to:
 3. Get recommendations based on the anime from MyAnimeList.net
 4. Get a summary of the top-rated reviews on the anime from MyAnimeList.net
 
-As of yet, the agent does not use retrieval augmented generation (RAG) to provide its responses, but I plan to add this functionality in future updates to give it more in-depth anime knowledge and reduce tool usage.
+As of yet, the agent does not use a vector database to provide its responses, but I plan to add this functionality in future updates to give it more in-depth anime knowledge and reduce tool usage.
 
 ## Why AniMate?
 Having been an avid consumer of anime since a young age, and after working in the tech industry, I've observed the evolving intersections of entertainment and technology. This interest combined with my fascination with AI and the world of LLMs naturally steered me towards exploring the capabilities of Large Language Models (LLMs) and their applicability in niche sectors such as anime analysis and discovery. 
