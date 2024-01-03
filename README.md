@@ -11,7 +11,7 @@ The **tools** currently provided allow the agent to:
 3. Get recommendations based on the anime from MyAnimeList.net
 4. Get a summary of the top-rated reviews on the anime from MyAnimeList.net
 
-As of yet, the agent does not use retrieval augmented generation (RAG) to provide its responses, but I plan to add this functionality in future updates to give it more in-depth anime knowledge.
+As of yet, the agent does not use retrieval augmented generation (RAG) to provide its responses, but I plan to add this functionality in future updates to give it more in-depth anime knowledge and reduce tool usage.
 
 ## Why AniMate?
 Having been an avid consumer of anime since a young age, and after working in the tech industry, I've observed the evolving intersections of entertainment and technology. This interest combined with my fascination with AI and the world of LLMs naturally steered me towards exploring the capabilities of Large Language Models (LLMs) and their applicability in niche sectors such as anime analysis and discovery. Recognizing a gap in the market and driven by a genuine curiosity for the potential of AI, I undertook the development of a GPT-powered chatbot tailored for anime enthusiasts. This project not only allows me to apply and refine my skills in modern AI application development using technologies like Langchain and Next.js but is also aimed at inspiring interest in the anime community regarding how AI can be used to enhance the average anime watcher's experience.
@@ -32,6 +32,17 @@ The repo is divided into two main directories:
     - All prototyping occurs here within Jupyter Notebooks. Any new chatbot functionality is first implemented in Python via Langchain, before being migrated to the main web app
 - **animate/**
     - A full-stack web app utilising Next.js and Supabase to provide a UI for the chatbot. Next.js is used for the front-end, while Supabase is used for elements of back-end functionality. Currently a WIP
+
+## Roadmap
+
++ **V1.0.0 (IN PROGRESS)**
+    - Authentication: Allow user to log in/signup
+    - Agent functionality: Interact with Wikipedia and myanimelist.net Tools provided to the agent:
+        - Retrieve anime synopsis: Get the anime synopsis. _Wikipedia_
+        - Retrieve anime ID: Get the MAL ID of the anime. _Jikan API endpoint: getAnimeSearch_
+        - Retrieve real-time statistics: Get the live statistics on an anime. _Jikan API endpoint: getAnimeStatistics_
+        - Retrieve recommendations: Get other anime recommendations based on a given anime. _Jikan API endpoint: getAnimeRecommendations_
+        - Retrieve sentiment: Get sentiment around the anime. _Jikan API endpoint: getAnimeReviews_
 
 ## Setup
 
