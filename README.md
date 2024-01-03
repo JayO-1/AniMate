@@ -14,7 +14,9 @@ The **tools** currently provided allow the agent to:
 As of yet, the agent does not use retrieval augmented generation (RAG) to provide its responses, but I plan to add this functionality in future updates to give it more in-depth anime knowledge and reduce tool usage.
 
 ## Why AniMate?
-Having been an avid consumer of anime since a young age, and after working in the tech industry, I've observed the evolving intersections of entertainment and technology. This interest combined with my fascination with AI and the world of LLMs naturally steered me towards exploring the capabilities of Large Language Models (LLMs) and their applicability in niche sectors such as anime analysis and discovery. Recognizing a gap in the market and driven by a genuine curiosity for the potential of AI, I undertook the development of a GPT-powered chatbot tailored for anime enthusiasts. This project not only allows me to apply and refine my skills in modern AI application development using technologies like Langchain and Next.js but is also aimed at inspiring interest in the anime community regarding how AI can be used to enhance the average anime watcher's experience.
+Having been an avid consumer of anime since a young age, and after working in the tech industry, I've observed the evolving intersections of entertainment and technology. This interest combined with my fascination with AI and the world of LLMs naturally steered me towards exploring the capabilities of Large Language Models (LLMs) and their applicability in niche sectors such as anime analysis and discovery. 
+
+Driven by a genuine curiosity for the potential of AI, I undertook the development of a GPT-powered chatbot tailored for anime enthusiasts. This project not only allows me to apply and refine my skills in modern AI application development using technologies like Langchain and Next.js but is also aimed at inspiring interest in the anime community regarding how AI can be used to enhance the average anime watcher's experience.
 
 ## Tech Stack
 
