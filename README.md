@@ -43,7 +43,7 @@ The repo is divided into two main directories:
 
 + **V1.0.0 (IN PROGRESS)**
     - Authentication: Allow user to log in/signup
-    - Agent functionality: Interact with Wikipedia and myanimelist.net Tools provided to the agent:
+    - Agent functionality: Interact with Wikipedia and myanimelist.net. Tools provided to the agent:
         - Retrieve anime synopsis: Get the anime synopsis. _Wikipedia_
         - Retrieve anime ID: Get the MAL ID of the anime. _Jikan API endpoint: getAnimeSearch_
         - Retrieve real-time statistics: Get the live statistics on an anime. _Jikan API endpoint: getAnimeStatistics_
